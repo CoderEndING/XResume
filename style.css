@@ -98,7 +98,7 @@ aside a {
 h1 {
     font-size: 22px;
     font-weight: 400;
-    color: #00796b;
+    color: #4F46E5;
 }
 
 h2 {
@@ -113,7 +113,7 @@ h2 {
 
 .side-info dt {
     font-size: 18px;
-    color: #00796b;
+    color: #4F46E5;
     line-height: 40px;
 }
 
@@ -137,7 +137,7 @@ h2 {
 }
 
 .main a {
-    color: #4db6ac;
+    color: #6366F1;
 }
 
 .main-info>li {
@@ -146,9 +146,9 @@ h2 {
 
 .main-info dt {
     font-size: 21px;
-    color: #00796b;
+    color: #4F46E5;
     line-height: 55px;
-    border-bottom: 1px solid #00796b;
+    border-bottom: 1px solid #4F46E5;
     margin: 0 0 15px 12px;
 }
 
@@ -209,7 +209,7 @@ h4::before {
     height: 14px;
     width: 14px;
     border-radius: 100%;
-    background: #00796b;
+    background: #4F46E5;
 }
 
 h4 .date {
@@ -234,8 +234,8 @@ h4 .date {
 }
 
 .proj-brief {
-    color: #00695c !important;
-    background: #e0f2f1;
+    color: #3730A3 !important;
+    background: #EEF0FE;
     border-radius: 4px;
     padding: 6px 10px;
 }
@@ -275,7 +275,7 @@ h4 .date {
     .sidebar {
         width: 100%;
         padding: 0 0 6px;
-        border-bottom: 2px solid #00796b;
+        border-bottom: 2px solid #4F46E5;
     }
 
     .title {

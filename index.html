@@ -13,7 +13,7 @@
     <aside>
         <ul>
             <li>
-                <a href="https://gitee.com/End-ING" target="_blank">Gitee</a>
+                <a href="https://gitee.com/xcet" target="_blank">Gitee</a>
             </li>
             <li>
                 <a href="mailto:delelemonwzx@163.com">邮箱</a>
@@ -38,7 +38,7 @@
                 <li class="someRight">
                     <dt>联系方式</dt>
                     <dd>E-Mail：delelemonwzx@163.com</dd>
-                    <dd><span>Gitee：</span><a href="https://gitee.com/End-ING" target="_blank">gitee.com/End-ING</a></dd>
+                    <dd><span>Gitee：</span><a href="https://gitee.com/xcet" target="_blank">gitee.com/xcet</a></dd>
                 </li>
                 <li class="someRight">
                     <dt>论文发表</dt>
@@ -141,7 +141,19 @@
                             <h4>基于 OpenOCD 嵌入式调试与烧录工作台<p class="date">( 个人项目 )</p></h4>
                             <ul class="describe">
                                 <li>
-                                    <p>针对嵌入式开发中调试工具碎片化、ARM 与 RISC-V 双架构工作流割裂的问题，基于 OpenOCD 构建跨架构一站式调试工作台：以 OpenOCD 为核心调试服务器，通过 GDB 远程协议与 TCL RPC 接口统一封装，提供 Zone 调试、Flash 烧录、交互式命令行、RTT 实时日志查看、变量波形监控等核心功能，覆盖 ARM Cortex-M/A/R 与 RISC-V 主流芯片的调试与烧录场景。</p>
+                                    <p class="proj-brief">项目简述：针对嵌入式开发中调试工具碎片化、ARM 与 RISC-V 双架构工作流割裂的问题，以 OpenOCD 为核心调试服务器，通过 GDB 远程协议与 TCL RPC 接口统一封装，构建跨架构一站式调试工作台，覆盖 ARM Cortex-M/A/R 与 RISC-V 主流芯片的调试与烧录场景。</p>
+                                </li>
+                                <li>
+                                    <p>Zone 调试工作台：基于 GDB 远程协议封装断点、单步、调用栈、寄存器/内存/外设查看等调试能力，为双架构芯片提供统一的调试视图与交互体验；</p>
+                                </li>
+                                <li>
+                                    <p>Flash 烧录与命令行：支持 bin/hex/elf 烧录、整片与扇区擦除、校验回读；封装 TCL RPC 实现交互式命令行，提供 read32/write32、halt/step、反汇编等快捷命令，支持脚本化批量操作；</p>
+                                </li>
+                                <li>
+                                    <p>RTT 实时日志与变量监控：多通道 RTT 日志收发、分级着色与数据录制；解析 ELF/DWARF 符号表提取变量地址，经 SWD 非侵入读取，实现变量实时波形绘制、触发与 CSV 导出；</p>
+                                </li>
+                                <li>
+                                    <p>辅助分析工具：开发 HardFault 故障解析工具（自动解析 CFSR/HFSR 等故障寄存器定位出错点）与 .map 文件分析工具（可视化 ROM/RAM 占用），提升问题定位效率。</p>
                                 </li>
                             </ul>
                         </li>
